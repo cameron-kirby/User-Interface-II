@@ -26,8 +26,11 @@ vertical-align: baseline;
 /* Start of styling */
 body {
     font-family: 'Merriweather', serif;
+    color: black;
     background-color: linen;
 }
+
+/* Header & Nav Styles */
 
 header {
     background-color: lightslategray;
@@ -61,6 +64,7 @@ header nav a div {
     margin: 3%;
     padding: 10%;
     text-align: center;
+    transition: 0.5s;
 }
 header nav a div:hover{
     transition: 0.5s;
@@ -69,13 +73,16 @@ header nav a div:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+/* Info Styles */
+
 #info {
-    padding: 3%;
+    padding: 3% 3% 0%;
     display:flex;
     justify-content: flex-start;
 }
 
 #info img {
+    border: 5px solid white;
     width: 45%;
 }
 
@@ -84,11 +91,32 @@ header nav a div:hover{
     width: 30%;
 }
 
+#info a {
+    text-decoration: none;
+    color: linen;
+}
+
+#info a div {
+    background-color: dimgrey;
+    margin: 3% 0%;
+    padding: 5%;
+    text-align: center;
+    transition: 0.5s;
+}
+#info a div:hover{
+    transition: 0.5s;
+    background-color: linen;
+    color: dimgrey;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Gallery Styles */
 #gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 1.5%;
+    margin: 0% 0% 5%;
 }
 
 .gallery-item {
@@ -96,6 +124,13 @@ header nav a div:hover{
     margin-top: 3%;
     border: 5px solid white;
     width: 21%;
+
+    transition: 0.5s;
+}
+
+.gallery-item:hover {
+    transition: 0.5s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .gallery-item img {
@@ -110,6 +145,7 @@ header nav a div:hover{
     padding: 8% 0% 11% 0%; 
 }
 
+/* Footer Styles */
 footer {
     background-color: lightslategray;
     text-align: center;
