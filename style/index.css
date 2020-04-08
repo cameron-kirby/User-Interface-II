@@ -52,6 +52,8 @@ header nav {
 
 header nav a {
     width: 10%;
+    text-decoration: none;
+    color: linen;
 }
 
 header nav a div {
@@ -61,7 +63,10 @@ header nav a div {
     text-align: center;
 }
 header nav a div:hover{
-    background-color: oldlace;
+    transition: 0.5s;
+    background-color: linen;
+    color: dimgrey;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #info {
@@ -87,6 +92,9 @@ header nav a div:hover{
 }
 
 .gallery-item {
+    background-color: snow;
+    margin-top: 3%;
+    border: 5px solid white;
     width: 21%;
 }
 
@@ -96,9 +104,10 @@ header nav a div:hover{
 }
 
 .gallery-item h3 {
+    letter-spacing: 0.1em;
     text-align: center;
     font-size: 20px;
-    padding: 7% 0% 15% 0%; 
+    padding: 8% 0% 11% 0%; 
 }
 
 footer {
