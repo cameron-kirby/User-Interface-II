@@ -23,6 +23,10 @@ font: inherit;
 vertical-align: baseline;  
 }
 
+html {
+    font-size: 62.5%;
+}
+
 /* Start of styling */
 body {
     font-family: 'Merriweather', serif;
@@ -30,8 +34,19 @@ body {
     background-color: linen;
 }
 
-/* Header & Nav Styles */
+.hide-element {
+    border: 0;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
 
+/* Header & Nav Styles */
 header {
     background-color: lightslategray;
     padding: 2%;
@@ -39,12 +54,12 @@ header {
 
 h1 {
     font-weight: 900;
-    font-size: 40px;
+    font-size: 4rem;
     margin: 0% 0% 1.5% 0%;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 3rem;
     margin: 0% 0% 1.5% 0%;
 }
 
@@ -146,7 +161,7 @@ p {
 .gallery-item h3 {
     letter-spacing: 0.1em;
     text-align: center;
-    font-size: 20px;
+    font-size: 2rem;
     padding: 8% 0% 11% 0%; 
 }
 
@@ -175,4 +190,14 @@ footer a div:hover{
     background-color: linen;
     color: dimgrey;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Tablet Width Styles */
+@media (max-width: 800px) {
+
+}
+
+/* Phone Width Styles */
+@media (max-width: 500px) {
+
 }
