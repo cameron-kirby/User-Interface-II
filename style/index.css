@@ -66,6 +66,7 @@ h2 {
 header nav {
     display: flex;
     justify-content: flex-start;
+    font-size: 1.6rem;
 }
 
 header nav a {
@@ -109,6 +110,7 @@ header nav a div:hover{
 #info a {
     text-decoration: none;
     color: linen;
+    font-size: 1.6rem;
 }
 
 #info a div {
@@ -128,6 +130,7 @@ header nav a div:hover{
 
 p {
     line-height: 2;
+    font-size: 1.6rem;
 }
 
 /* Gallery Styles */
@@ -175,6 +178,7 @@ footer {
 footer a {
     text-decoration: none;
     color: linen;
+    font-size: 1.6rem;
 }
 
 footer a div {
